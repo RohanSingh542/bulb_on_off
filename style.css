@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.bulb-img{
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    border: none;
+    border-radius: 5px;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+.btn{
+    padding: 10px 25px;
+    color: white;
+    background-color: rgb(177, 170, 170);
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: #342d2d;
+    cursor: pointer;
+}
